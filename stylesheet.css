@@ -1,0 +1,44 @@
+body {
+    /* background-color:  rgb(98, 175, 199); */
+    background-image: linear-gradient(to right ,#355c7d, #6c5b7b, #c06c84);
+    max-width: 98%;
+    color: white;
+}
+
+    .conatiner {
+        height: 500px;
+    }
+
+        #main {
+            margin-top: 130px;
+            height:  320px;
+        }    
+
+            .location {
+                 font-size: 30px;
+                /* margin-bottom: 35px; */
+                position: relative;
+                bottom:  80px;
+            }
+
+            .temperature {
+                cursor: pointer;
+                font-size: 50px;
+            }
+
+            .condition i  {
+                font-size: 120px;
+                color: white;
+                position: relative;
+                top: 3rem;
+            }
+
+            .definition {
+              font-size: 20px;
+            }
+
+/* canvas {
+    position: relative;
+    top: 3rem;
+} */
+
