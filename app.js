@@ -3,8 +3,7 @@ async function fetchData (lat , long ) {
     const result = await axios.get( proxy + "api.openweathermap.org/data/2.5/weather" , {
         params : {
             lat : lat,
-            lon : long ,
-            appid :  "371a314f1e893d908cf8845a46cc49d7"
+            lon : long 
         }
     });
  console.log(result);
@@ -65,14 +64,3 @@ let currentTemp;
      
  };
 
- 
-//  function useIcons(description) {
-//     const icon = description.toUpperCase();
-//     var skycons = new Skycons({ "color": "white" });
-//     skycons.play();
-//     skycons.set(document.getElementById("icon1"), Skycons[icon]);
-// }
-
- 
-
-//  renderData();
